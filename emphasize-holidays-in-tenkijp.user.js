@@ -37,7 +37,6 @@
           if (date === h) {
             element.style.color = "red";
             element.textContent = textInHeading + "(" + holidays[h] + ")";
-            return;
           }
         }
       }
